@@ -28,7 +28,7 @@ options:
   interface:
     private_key: ""
     address: 10.6.0.2
-    dns: [ 8.8.8.8, 8.8.4.4]
+    dns: [ 1.1.1.1, 8.8.8.8]
     post_up: "iptables -t nat -A POSTROUTING -o wg0 -j MASQUERADE; iptables -A FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu"
     post_down: "iptables -t nat -D POSTROUTING -o wg0 -j MASQUERADE; iptables -D FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu"
     mtu: 1420
