@@ -21,3 +21,15 @@ WireGuard is currently under heavy development, but already it might be
 regarded as the most secure, easiest to use, and the simplest VPN solution
 in the industry.
 
+## build
+
+### amd64 & i386
+docker run \
+  --rm \
+  --privileged \
+  -v ~/.docker:/root/.docker \
+  homeassistant/amd64-builder \
+  --all \
+  -t wireguard_client \
+  -r https://github.com/skjoher/addon-wireguard-client \
+  -b main
