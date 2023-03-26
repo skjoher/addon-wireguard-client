@@ -1,3 +1,5 @@
+[![Publish](https://github.com/skjoher/addon-wireguard-client/actions/workflows/main.yml/badge.svg)](https://github.com/skjoher/addon-wireguard-client/actions/workflows/main.yml)
+
 # WireGuard Client
 
 
