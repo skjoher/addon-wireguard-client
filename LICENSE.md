@@ -1,5 +1,7 @@
 # MIT License
 
+Copyright (c) 2022-2023 joher
+
 Copyright (c) 2020-2022 Fabio Mauro
 
 Copyright (c) 2019-2020 Franck Nijhof
